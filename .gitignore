@@ -1,0 +1,26 @@
+# ROM, sauvegardes, états et fichiers de sortie
+*.gba
+*.sav
+*.srm
+*.ss0
+*.ss1
+*.ss2
+*.state
+
+
+# Python et outils
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Systèmes et éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

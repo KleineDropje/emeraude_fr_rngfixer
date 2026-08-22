@@ -38,6 +38,7 @@ from contextlib import ExitStack
 from pathlib import Path, PureWindowsPath
 from typing import BinaryIO
 
+VERSION = "1.0.0"
 
 ROM_SIZE = 16 * 1024 * 1024
 EXPECTED_SOURCE_MD5 = "2c00e335288a96650e34785b5e2a7588"
@@ -979,6 +980,7 @@ def patch_rom(rom_path: Path) -> Path:
 
 def show_program_information() -> None:
     print("Pokémon Version Émeraude FR — RTC+TIMER RNG Fix")
+    print(f"Version : {VERSION}")
     print("=" * 53)
     print("\n--CRÉDITS--\n")
     print(

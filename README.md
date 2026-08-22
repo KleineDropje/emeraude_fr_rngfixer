@@ -1,6 +1,8 @@
 # Pokémon Émeraude FR — correctif RNG 32-bit RTC+TIMER
+VERSION 1.0.0
 
 Ce projet applique à Pokémon Version Émeraude française un portage minimal du correctif RNG 32-bit RTC+TIMER de MWisBest. Il corrige l’initialisation déficiente du générateur pseudo-aléatoire au démarrage en combinant la RTC et le Timer 1.
+Merci à MWisbest pour le patch original USA et à Aliogeek pour avoir produit en premier lieu le patch FR. Ce projet est né de la discontinuité de la disponibilité du téléchargement du patch FR proposé par Aliogeek sur le forum Pokémon Trash. 
 
 Le dépôt ne contient et ne doit contenir **aucune ROM Pokémon**. Vous devez utiliser une ROM française propre obtenue légalement depuis votre propre cartouche.
 

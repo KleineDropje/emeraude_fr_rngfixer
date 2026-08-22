@@ -19,6 +19,8 @@ Le script refuse toute ROM qui ne correspond pas exactement à la version prise 
 
 Ces empreintes identifient des fichiers précis ; elles ne prouvent ni leur provenance ni votre droit à les utiliser.
 
+## Installation
+
 #### Méthode 1 — script autonome recommandé
 
 Prérequis : Python 3.9 ou plus récent, sans module supplémentaire.

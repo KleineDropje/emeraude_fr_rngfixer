@@ -59,13 +59,13 @@ Appliquez-le exclusivement à la ROM propre portant le MD5 '2c00e335288a96650e34
 
 Le programme :
 
-- n’accepte qu’un fichier '.gba' ordinaire de 16 MiB ;
-- vérifie MD5, SHA-1 et SHA-256 de la ROM source ;
-- refuse une autre région, une autre révision, une ROM modifiée ou déjà patchée ;
-- contrôle cinq signatures binaires et la disponibilité de la zone d’injection ;
-- applique exactement trois écritures prévues, pour 76 octets écrits au total ;
-- vérifie en mémoire les empreintes du résultat avant de créer un fichier ;
-- crée une copie sous un nom encore libre, sans écrasement ;
+- n’accepte qu’un fichier .gba ordinaire de 16 MiB,
+- vérifie MD5, SHA-1 et SHA-256 de la ROM source,
+- refuse une autre région, une autre révision, une ROM modifiée ou déjà patchée,
+- contrôle cinq signatures binaires et la disponibilité de la zone d’injection,
+- applique exactement trois écritures prévues, pour 76 octets écrits au total,
+- vérifie en mémoire les empreintes du résultat avant de créer un fichier,
+- crée une copie sous un nom encore libre, sans écrasement,
 - relit intégralement la copie et confirme que la source n’a pas changé.
 
 En cas d’erreur après la création du fichier de sortie, le programme indique explicitement que cette sortie peut être incomplète. Ne l’utilisez pas.
@@ -74,11 +74,11 @@ En cas d’erreur après la création du fichier de sortie, le programme indique
 
 Le portage a été testé sous mGBA :
 
-- l’exécution atteint la routine injectée à 0x089C4F70 ;
-- elle rejoint ensuite InitMainMenu à 0x0802F6F4 ;
-- la valeur RNG à 0x03005D80 a varié lors de 5000+ redémarrages successifs.
+- l’exécution atteint la routine injectée à 0x089C4F70
+- elle rejoint ensuite InitMainMenu à 0x0802F6F4
+- la valeur RNG à 0x03005D80 a varié lors de 5000+ redémarrages successifs
 
-Cette validation confirme le fonctionnement observé sous mGBA. Elle ne constitue pas, à elle seule, une validation sur console réelle ou sur toutes les configurations de cartouches flash et de RTC.
+Cette validation ne constitue pas à elle seule une validation de la bonne exécution de la ROM patchée sur console réelle ou sur toutes les configurations de cartouches flash et de RTC.
 
 ## Crédits
 

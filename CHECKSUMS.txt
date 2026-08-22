@@ -10,7 +10,7 @@ SHA256  e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4
 MD5     db02a1ba1e3787114dea02547f8515b2
 SHA1    a6bfff331ae78f7c284104074404c7d4f1593cd1
 
-[IPS français facultatif attendu — 99 octets]
+[IPS français fourni — utilisation facultative — 99 octets]
 Nom     patch/Pokemon Emeraude FR - 32-bit RTC+TIMER RNG Fix.ips
 MD5     a83f62bab34aeed7037e384adf1a95ac
 

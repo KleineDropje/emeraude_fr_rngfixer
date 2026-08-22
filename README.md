@@ -6,19 +6,6 @@ Merci à MWisbest pour le patch original USA et à Aliogeek pour avoir produit e
 
 Le dépôt ne contient et ne doit contenir **aucune ROM Pokémon**. Vous devez utiliser une ROM française propre obtenue légalement depuis votre propre cartouche.
 
-## Compatibilité et empreintes
-
-Le script refuse toute ROM qui ne correspond pas exactement à la version prise en charge.
-
-| Élément | Taille | Empreinte |
-|---|---:|---|
-| ROM FR propre requise | 16 777 216 octets | MD5 '2c00e335288a96650e34785b5e2a7588' |
-| ROM FR propre requise | 16 777 216 octets | SHA-256 'e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4' |
-| ROM obtenue | 16 777 216 octets | MD5 'db02a1ba1e3787114dea02547f8515b2' |
-| IPS fourni — utilisation facultative | 99 octets | MD5 'a83f62bab34aeed7037e384adf1a95ac' |
-
-Ces empreintes identifient des fichiers précis ; elles ne prouvent ni leur provenance ni votre droit à les utiliser.
-
 ## Installation
 
 #### Méthode 1 — script autonome recommandé
@@ -54,6 +41,19 @@ Taille : 99 octets
 MD5    : a83f62bab34aeed7037e384adf1a95ac
 
 Appliquez-le exclusivement à la ROM propre portant le MD5 '2c00e335288a96650e34785b5e2a7588', puis contrôlez que la ROM obtenue porte le MD5 'db02a1ba1e3787114dea02547f8515b2' et le SHA-1 'a6bfff331ae78f7c284104074404c7d4f1593cd1'. L'application du patch à une version autre que la version FR corrompt les données du jeu. 
+
+## Compatibilité et empreintes
+
+Le script refuse toute ROM qui ne correspond pas exactement à la version prise en charge.
+
+| Élément | Taille | Empreinte |
+|---|---:|---|
+| ROM FR propre requise | 16 777 216 octets | MD5 '2c00e335288a96650e34785b5e2a7588' |
+| ROM FR propre requise | 16 777 216 octets | SHA-256 'e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4' |
+| ROM obtenue | 16 777 216 octets | MD5 'db02a1ba1e3787114dea02547f8515b2' |
+| IPS fourni — utilisation facultative | 99 octets | MD5 'a83f62bab34aeed7037e384adf1a95ac' |
+
+Ces empreintes identifient des fichiers précis ; elles ne prouvent ni leur provenance ni votre droit à les utiliser.
 
 ## Sécurité
 

@@ -37,7 +37,9 @@ Taille : 99 octets
 
 MD5    : a83f62bab34aeed7037e384adf1a95ac
 
-Appliquez-le exclusivement à la ROM propre portant le MD5 '2c00e335288a96650e34785b5e2a7588', puis contrôlez que la ROM obtenue porte le MD5 'db02a1ba1e3787114dea02547f8515b2' et le SHA-1 'a6bfff331ae78f7c284104074404c7d4f1593cd1'. L'application du patch à une version autre que la version FR corrompt les données du jeu. 
+Appliquez-le exclusivement à la ROM propre portant le MD5 '2c00e335288a96650e34785b5e2a7588', puis contrôlez que la ROM obtenue porte le MD5 'db02a1ba1e3787114dea02547f8515b2' et le SHA-1 'a6bfff331ae78f7c284104074404c7d4f1593cd1'. 
+
+**L'application du patch à une version autre que la version FR corrompt les données du jeu**. 
 
 ## Compatibilité et empreintes
 
